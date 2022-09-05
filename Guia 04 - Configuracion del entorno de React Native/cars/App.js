@@ -5,17 +5,17 @@ const DATA = [
  {
  id: '1',
  title: 'Toyota',
- src:require('./src/imgs/Toyota.png'),
+ src:require('./src/imgs/toyota.jpg'),
  },
  {
  id: '2',
  title: 'Mazda',
- src:require('./src/imgs/Mazda.png'),
+ src:require('./src/imgs/mazda.jpg'),
  },
  {
  id: '3',
  title: 'Mitsubishi',
- src:require('./src/imgs/Mitsubishi.png'),
+ src:require('./src/imgs/mitsubishi.jpeg'),
  },
  ];
  const Item = ({ title,img }) => (
@@ -66,5 +66,5 @@ const DATA = [
   }
   });
  
-  AppRegistry.registerComponent("cars", () => App);
+  export default App;
 
