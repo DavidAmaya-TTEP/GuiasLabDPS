@@ -1,6 +1,6 @@
 /**
 * @format
-  * @flow strict-local
+* @flow strict-local
 */
 import React from 'react';
 import {
@@ -11,18 +11,12 @@ import {
  StatusBar,
 } from 'react-native';
 import colors from './src/utils/colors';
-import Form from './src/components/Form';
-
 export default function App(){
-  const [capital, setCapital] = useState(null);
-  const [interest, setInterest] = useState(null);
-  const [months, setMonths] = useState(null);
 return(
  <>
  <StatusBar barStyle="light-content"/>
  <SafeAreaView style={styles.Header}>
  <Text style={styles.HeadApp}>Cotizador de Prestamos</Text>
- <Form setCapital={setCapital} setInterest={setInterest} setMonths={setMonths} />
  </SafeAreaView>
  <View>
  <Text>Result</Text>
@@ -40,11 +34,12 @@ const styles = StyleSheet.create({
  borderBottomLeftRadius:30,
  borderBottomRightRadius:30,
  alignItems:'center'
- },
- HeadApp:{
-   fontSize:25,
-   fontWeight:'bold',
-   color:'#fff',
-   marginTop:15,
- },
+},
+HeadApp:{
+  fontSize:25,
+  fontWeight:'bold',
+  color:'#fff',
+  marginTop:15,
+}
 })
+

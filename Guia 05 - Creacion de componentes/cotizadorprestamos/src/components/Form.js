@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, TextInput, View} from 'react-native';
+import { StyleSheet, TextInput, View } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import colors from '../utils/colors';
 export default function Form(props) {
